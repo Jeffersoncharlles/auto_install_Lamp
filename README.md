@@ -4,8 +4,7 @@
 # Auto Install Lamp ubuntu server 20.04
 
 
-
-a ideia aqui e criar um script de lâmpada de instalação automática onde ele fara todas as configurações padrao para funcionar sozinho e gera o root e password para seu mysql
+the idea here is to create an automatic installation lamp script where it will make all the default settings to work alone and generate the root and password for your mysql
 
 ## About this Project
 
@@ -22,9 +21,9 @@ a ideia aqui e criar um script de lâmpada de instalação automática onde ele 
 - auto install php7.4 php7.4-cli php7.4-curl php7.4-gd php7.4-json php7.4-xml php7.4-zip php7.4-mbstring php7.4-mysql
 
 - auto install install mariadb-server
-	- funcoes ainda nao testado configuracoes do mariadb
+	- untested functions mariadb settings
 	
-- o script tambem gera um relatorio de algumas informacoes da maquina
+- the script also generates a report of some machine information
 
   
 
@@ -63,4 +62,4 @@ Thank you!
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Jeffersoncharlles/auto_install_Lamp/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
