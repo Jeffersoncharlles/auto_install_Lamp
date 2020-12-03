@@ -4,7 +4,7 @@
 #=========+++++++++SCRIPT INSTALL APACHE MYSQL PHP+++++++++++=============
 #
 #Autor: Jefferson Charlles
-#Data Criacao:23/11/2020
+#Data Criacao:22/11/2020
 #
 #Descricao: Script auto instalador php apache e mariadb
 #
@@ -72,6 +72,7 @@ echo "##########################################################################
 echo "$PASSWORD"
 echo -e
 mysql_secure_installation
+##ate aqui foi testado e funciona ainda nao teste o restante do script
 
 #remover usuario anonimo
 echo "##################################-remover-usuario-anonimo-############################" 
