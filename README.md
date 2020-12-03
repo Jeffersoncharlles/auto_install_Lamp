@@ -63,4 +63,4 @@ Thank you!
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/steniowagner/mindCast/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Jeffersoncharlles/auto_install_Lamp/blob/master/LICENSE) file for details
