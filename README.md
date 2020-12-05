@@ -27,9 +27,6 @@ the idea here is to create an automatic installation lamp script where it will m
 
   
 
-  
-
-
 ## Getting Started
 
 ### Prerequisites

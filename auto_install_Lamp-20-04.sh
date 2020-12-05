@@ -71,26 +71,12 @@ echo "##########################################################################
 echo "####################################################################################"
 echo "$PASSWORD"
 echo -e
-mysql_secure_installation
-##ate aqui foi testado e funciona ainda nao teste o restante do script
+mysql_secure_installation 
 
-#remover usuario anonimo
-echo "##################################-remover-usuario-anonimo-############################" 
-y
-#desabilitar login remoto no root
-echo "##############################-desabilitar-login-remoto-no-root-######################"  
-y
-#remover banco de dados teste e acesso a ele
-echo "############################-remover-banco-de-dados-teste-############################"  
-y
-#recaregar os privilegios de tabelas 
-y
-
-mysql -uroot
+mysql -uroot GRANT ALL PRIVILEGES ON *.* TO 'superadmin'@'localhost' IDENTIFIED BY '$PASSWORD';
 
 #CREATE USER 'user'@'localhost' INDENTIFIED BY 'senhausuario';
 #GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost' WITH GRANT OPTION;
-GRANT ALL PRIVILEGES ON *.* TO 'superadmin'@'localhost' IDENTIFIED BY '$PASSWORD';
 exit
 echo "#########################----------Restart-aplicacao----###################################"
 a2enmod suexec rewrite include
