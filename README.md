@@ -7,9 +7,10 @@
 the idea here is to create an automatic installation lamp script where it will make all the default settings to work alone and generate the root and password for your mysql
 
 ## About this Project
+Auto Install Lamp It is an application for ubuntu server 20.04 where it automatically installs all the apache mysql and php leaving you ready for use
+
 <p align="center">
 <a href="https://github.com/Jeffersoncharlles/auto_install_Lamp.git"><img src="https://img.shields.io/badge/auto-installLamp-yellowgreen" alt="Build Status"></a>
-
 </p>
 
 ## Functionalities
