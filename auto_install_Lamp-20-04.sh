@@ -69,14 +69,13 @@ echo -e "Memoria Total: ${AMARELO}$MEMTOTAL MB${ZERARR}"
 # Variáveis de configuração do MySQL e liberação de conexão remota para o usuário Root
 
 clear
-if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "20.04" ] && [ "$KERNEL" == "4.15" ]
+if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "20.04" ]
 	then
 		echo -e "O usuário é Root, continuando com o script..."
-		echo -e "Distribuição é >=18.04.x, continuando com o script..."
-		echo -e "Kernel é >= 4.15, continuando com o script..."
+		echo -e "Distribuição é >=20.04.x, continuando com o script..."
 		sleep 5
 	else
-		echo -e "Usuário não é Root ($USUARIO) ou Distribuição não é >=20.04.x ($UBUNTU) ou Kernel não é >=4.15 ($KERNEL)"
+		echo -e "Usuário não é Root ($USUARIO) ou Distribuição não é >=20.04.x ($UBUNTU)"
 		echo -e "Caso você não tenha executado o script com o comando: sudo -i"
 		echo -e "Execute novamente o script para verificar o ambiente."
 		exit 1
