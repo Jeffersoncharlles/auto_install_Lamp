@@ -64,7 +64,7 @@ echo -e "Modelo da Cpu: ${AMARELO}$CPUMODEL${ZERARR}"
 echo -e
 echo -e "Memoria Total: ${AMARELO}$MEMTOTAL MB${ZERARR}"
 # ------------------------------------------------------------------------#
-# Verificando se o usuário é Root, Distribuição é >=18.04 e o Kernel é >=4.15 <IF MELHORADO)
+# Verificando se o usuário é Root, Distribuição é >=20.04 <IF MELHORADO)
 # [ ] = teste de expressão, && = operador lógico AND, == comparação de string, exit 1 = A maioria dos erros comuns na execução
 # Variáveis de configuração do MySQL e liberação de conexão remota para o usuário Root
 
